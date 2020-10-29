@@ -1,0 +1,58 @@
+.gnav {
+  width: 120px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  color: #fff;
+  align-items: center;
+
+  .gmenu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    .mmenuitem {
+      width: 100%;
+      padding: 5px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: .3s;
+      font-size: 12px;
+    
+    
+
+      &:hover {
+        background:#cc3300;
+      }
+
+      &>img {
+        width: 16px;
+        margin-right: 6px;
+      }
+    
+
+    }
+
+  }
+  
+}
+img {
+  width: 16px;
+  margin-right: 6px;
+}
+
+
+.mmenuitem_active {
+  background: #336699!important;
+  width: 100%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+  font-size: 12px;
+}
