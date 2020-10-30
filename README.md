@@ -4,7 +4,8 @@
 本仓库为 [论文管理系统](https://github.com/quanta2015/FinalDoc)
 项目的重置，前端使用react16.8+Typescript,后端使用Express.js+Mysql。
 </font>
------
+-----  
+
 > 系统
 
 + 学生端  
